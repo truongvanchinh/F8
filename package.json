@@ -1,0 +1,40 @@
+{
+  "name": "f8",
+  "version": "1.0.0",
+  "description": "Create Website F8",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect  src/server.js",
+    "watch": "node-sass -w src/resources/scss/app.scss src/public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongvanchinh/F8.git"
+  },
+  "keywords": [
+    "F8",
+    "Node",
+    "js",
+    "Express",
+    "js",
+    "JavaScript",
+    "Website"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truongvanchinh/F8/issues"
+  },
+  "homepage": "https://github.com/truongvanchinh/F8#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "mongoose": "^7.5.4"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
